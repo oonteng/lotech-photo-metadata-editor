@@ -1,0 +1,13 @@
+.DS_Store
+*.swp
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+Build/
+Release/
+*.xcarchive
+*.ipa
+*.dSYM
+*.zip
+*.tmp
