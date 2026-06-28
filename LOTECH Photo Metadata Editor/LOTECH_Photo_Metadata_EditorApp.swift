@@ -13,8 +13,7 @@ struct LOTECH_Photo_Metadata_EditorApp: App {
                     NSApp.orderFrontStandardAboutPanel(options: [
                         .applicationName: "LOTECH Photo Metadata Editor",
                         .applicationVersion: "1.0.0",
-                        .version: "Version 1.0.0",
-                        .credits: NSAttributedString(string: "Copyright (c) 2026 Lee Oon Teng\nMIT License")
+                        .version: "1.0.0"
                     ])
                 }
             }
