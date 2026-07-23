@@ -60,6 +60,8 @@ Sometimes we only need to work on one photograph.
 
 Single Edit lets us edit metadata while viewing the actual image, making it easy to understand exactly what we're working on.
 
+![Single Edit interface with photo preview, metadata fields and map](docs/Screenshots/single-edit.png)
+
 Features include:
 
 - Large photo preview
@@ -98,6 +100,8 @@ Managing hundreds or even thousands of photos shouldn't feel like repetitive off
 
 Batch Edit provides a spreadsheet-style workflow designed to help us organise large collections efficiently.
 
+![Batch Edit spreadsheet interface for editing an entire folder](docs/Screenshots/batch-edit.png)
+
 Features include:
 
 - Thumbnail preview
@@ -113,6 +117,10 @@ Features include:
 - Undo / Redo
 - Metadata completeness tracking
 - Missing metadata indicators
+
+GPS editing is also built around the same batch workflow. We can select multiple photos, search for a location, confirm it on Apple Maps, and apply the location to all selected photos together.
+
+![Batch GPS editor with Apple Maps location search](docs/Screenshots/gps-edit.png)
 
 The goal is simple:
 
