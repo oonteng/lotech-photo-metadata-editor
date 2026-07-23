@@ -1,36 +1,68 @@
 # LOTECH Photo Metadata Editor
 
-A lightweight macOS application for viewing, organizing and editing photo metadata one image or thousands of images at a time.
+A lightweight macOS application for viewing, organising and editing photo metadata, whether it is a single image or thousands of images at a time.
 
-LOTECH Photo Metadata Editor combines detailed single-image editing with a spreadsheet-style Batch Edit interface, making large photo collections practical to organize without expensive Digital Asset Management software.
-
-This application is part of the **LOTECH** family of practical desktop utilities.
+LOTECH Photo Metadata Editor combines detailed single-photo editing with a spreadsheet-style Batch Edit interface, making large photo collections practical to organise without expensive Digital Asset Management (DAM) software.
 
 ---
 
-# Why LOTECH Photo Metadata Editor?
+# Less time meddling with tech settings. More time organising our digital life.
 
-Most photo metadata tools are either:
+We believe technology should adapt to us, not the other way around.
 
-- too technical,
-- too limited,
-- or bundled inside large photo management software.
+There are already many metadata editors available today. Most are designed around metadata standards, technical field names and specifications. They're powerful, but many of them expect us to think like the software.
 
-LOTECH focuses on one job:
+We built LOTECH differently.
 
-Making metadata editing simple, fast and reliable.
+Instead of putting technical fields front and centre, we focus on what matters to us as humans first. Organising our memories should never feel like filling in a database. We should spend less time managing files, and more time enjoying the memories behind them.
+
+The software can deal with the technical details.
+
+We shouldn't have to.
 
 ---
 
-# Features
+# Organising memories without the technical headache
 
-## Single Edit
+Most of us know photos contain metadata. What many of us don't care about is whether a particular field belongs to **EXIF**, **IPTC** or **XMP**. Those names all are Greek to us.
 
-Edit metadata while viewing the actual photograph.
+What we actually care about is much simpler.
 
-Supported capabilities include:
+- What is this photo?
+- Where was it taken?
+- When was it taken?
+- Who was there?
+- Why did we keep it?
 
-- Large image preview
+LOTECH presents metadata the way we naturally think about our photos. Behind the scenes, the application automatically reads and writes the appropriate metadata standards, while presenting one consistent editing experience.
+
+---
+
+# Edit like a spreadsheet
+
+This is probably our favourite feature.
+
+Editing metadata shouldn't mean opening one photo, making a change, clicking Save, opening the next photo, and repeating the process hundreds of times.
+
+Instead, LOTECH lets us edit an entire folder just like working in a spreadsheet.
+
+We are no longer living in the 1990s. Most of us grew up using Word, Excel and PowerPoint at school and at work. Tables feel natural. We can scan hundreds of rows, copy and paste values, fill down columns and make changes quickly.
+
+So why are we still editing metadata one photo at a time through endless forms and dialog boxes? We'd rather see everything in one place, make the changes, press **Save**, and move on with life.
+
+Simple. Fast. Familiar.
+
+---
+
+# Single Edit
+
+Sometimes we only need to work on one photograph.
+
+Single Edit lets us edit metadata while viewing the actual image, making it easy to understand exactly what we're working on.
+
+Features include:
+
+- Large photo preview
 - Camera information
 - GPS information
 - Interactive Apple Maps preview
@@ -55,24 +87,26 @@ Editable metadata includes:
 - License
 - Website
 - Email
-- Date / Time
+- Date & Time
 - GPS coordinates
 
 ---
 
-## Batch Edit
+# Batch Edit
 
-Designed for photographers, content creators and archivists managing large image collections.
+Managing hundreds or even thousands of photos shouldn't feel like repetitive office work.
 
-Batch Edit provides a spreadsheet-style workflow with:
+Batch Edit provides a spreadsheet-style workflow designed to help us organise large collections efficiently.
+
+Features include:
 
 - Thumbnail preview
 - Multi-selection
 - Spreadsheet editing
 - Batch rename
 - Batch GPS editing
-- Batch copyright editing
 - Batch keyword editing
+- Batch copyright editing
 - Batch date editing
 - Search
 - Filters
@@ -80,50 +114,98 @@ Batch Edit provides a spreadsheet-style workflow with:
 - Metadata completeness tracking
 - Missing metadata indicators
 
-The goal is to make hundreds of metadata edits feel like editing a spreadsheet.
+The goal is simple:
+
+Make hundreds of metadata edits feel like editing a spreadsheet.
 
 ---
 
-# Metadata Handling
+# The technical details are still there
 
-The application presents a simple logical metadata model.
+Sometimes we do want to dig a little deeper.
 
-Users should not need to understand EXIF, IPTC, TIFF or XMP.
+Maybe we want to inspect aperture, shutter speed, ISO, focal length, lens information, GPS coordinates, camera models, or every piece of metadata hidden inside the image.
 
-LOTECH automatically reads and writes supported metadata standards while presenting one consistent editing interface.
+No problem.
 
-Where appropriate, metadata is written to multiple compatible standards for maximum interoperability.
+LOTECH doesn't hide the technical information. We simply choose not to overwhelm us with everything the moment we open a photo.
+
+The information is there when we need it, and quietly stays out of the way when we don't.
+
+---
+
+# Built for people who enjoy technology
+
+LOTECH is built for people like us.
+
+People who have accumulated thousands of photos over the years.
+
+People who own NAS devices.
+
+People who organise family memories.
+
+People who like understanding how technology works, but don't enjoy wrestling with technical interfaces.
+
+We don't build software to show off technical complexity.
+
+We build software that quietly removes it.
 
 ---
 
 # Local First
 
-All metadata editing occurs locally.
+All metadata editing happens locally on our own computer.
 
-No images leave your computer.
+No photos are uploaded.
 
 No cloud processing is required.
 
-Future AI-assisted metadata suggestions will remain optional.
+No subscriptions.
+
+No accounts.
+
+Our photo library stays exactly where it belongs.
+
+Future AI-assisted features, if introduced, will always remain optional.
 
 ---
 
-# LOTECH Philosophy
+# Technical Details
 
-LOTECH creates practical software that removes friction from everyday work.
+LOTECH Photo Metadata Editor supports the metadata standards used by modern cameras, operating systems and photo management software.
 
-The emphasis is on reliability, thoughtful workflow design and tools that stay useful for years.
+Supported standards include:
+
+- EXIF
+- IPTC
+- XMP
+- GPS metadata
+- Keywords
+- Ratings
+- Copyright
+- Camera information
+- Lens information
+- Date & Time
+- Custom metadata (where supported)
+
+Metadata is written directly into the image files using open standards, making them compatible with applications such as:
+
+- Adobe Lightroom
+- Adobe Bridge
+- Apple Photos
+- digiKam
+- XnView MP
+- Windows Explorer
+- and many other applications that support standard photo metadata.
 
 ---
 
 # Current Status
 
-Version: **1.0.0**
-
 Current release includes:
 
 - Single Edit
-- Spreadsheet Batch Edit
+- Spreadsheet-style Batch Edit
 - Interactive GPS editing
 - Apple Maps integration
 - Batch rename
@@ -141,13 +223,6 @@ Current release includes:
 
 ---
 
-# Developer Documentation
-
-- docs/Architecture.md
-- docs/Metadata_Standard.md
-
----
-
 # Roadmap
 
 Future directions include:
@@ -161,16 +236,14 @@ Future directions include:
 
 ---
 
-# License
+# Our Philosophy
 
-Released under the MIT License.
+Technology should work the way people think.
 
-See `LICENSE`.
+Not the way computers store data.
 
----
+If software can quietly handle the technical complexity for us, it should.
 
-# Disclaimer
+That gives us something far more valuable than another feature.
 
-This software is provided **as-is**, without warranty.
-
-Always keep backups before editing important photo collections.
+It gives us back our time.
