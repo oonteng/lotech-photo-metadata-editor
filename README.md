@@ -6,6 +6,26 @@ LOTECH Photo Metadata Editor combines detailed single-photo editing with a sprea
 
 ---
 
+
+## macOS Security Warning on First Launch
+
+The current downloadable build is **not notarized by Apple**. On first launch, macOS may display **“Apple could not verify this app is free of malware”** or **“Apple can't check the app for malicious software.”** This warning does not prove the app is malicious, but it does mean Apple has not completed its notarization check.
+
+**Only proceed if you downloaded the app from this project's official GitHub Releases page and trust the source.**
+
+1. Try opening the app once. When macOS blocks it, click **Done**, not **Move to Trash**.
+2. Open **Apple menu → System Settings → Privacy & Security**.
+3. Scroll to **Security**, locate the message about the blocked app, and click **Open Anyway**. This option normally appears for about an hour after the attempted launch.
+4. Confirm **Open** or **Open Anyway**, then authenticate if requested.
+5. After this one-time exception, you should be able to launch the app normally.
+
+If the button is missing, try opening the app again and revisit Privacy & Security. **Do not disable Gatekeeper globally** or run Terminal commands to remove macOS security protections.
+
+We intend to sign and notarize future releases through Apple's Developer ID process to avoid this workaround.
+
+---
+
+
 # Less time meddling with tech settings. More time organising our digital life.
 
 We believe technology should adapt to us, not the other way around.
